@@ -20,7 +20,12 @@ function Homepage() {
                 <a className='noneDec' href="/pancakes"><img className='heightWenig' src="https://i.pinimg.com/564x/1b/40/53/1b40530cc6c6de474bab5b0dabeed17e.jpg" alt="" /></a>
               </div>
             </div>
-            <div className='footer'></div>
+            <div className='footer'>
+              <br />
+              <br />
+
+              <p className='bonbon'>Bon Appétit!</p>
+            </div>
     </div>
   )
 }

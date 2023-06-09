@@ -5,6 +5,7 @@
 }
 
 body {
+  background-color: rgb(222, 222, 222);
   height: 100%;
   width: 100%;
 }
@@ -13,7 +14,7 @@ body {
   position: relative;
   background-image: url(rachel-park-hrlvr2ZlUNk.jpg);
   height: 75vh;
-  color: rgb(255, 255, 255);
+  color: rgb(170, 170, 170);
   background-size: cover;
   background-position: center;
   display: flex;
@@ -34,26 +35,31 @@ body {
 }
 
 .center {
-  filter: brightness(150%);
+  filter: brightness(130%);
   font-size: 40px;
   font-family: 'Permanent Marker', cursive;
 }
+
 .center2 {
   font-size: 30px;
   display: block;
   text-align: center;
 }
+
 .noneDec {
   text-decoration: none;
 }
+
 .heightWenig {
   height: 230px;
   border-radius: 17px;
   transition: 0.5s;
 }
+
 .wrapDetail {
   display: inline-block;
 }
+
 .wrap {
   display: flex;
   flex-wrap: wrap;
@@ -66,4 +72,13 @@ body {
   background-color: black;
   transform: scale(1.1);
   box-shadow: 0 0 20px black;
+}
+
+.bonbon {
+  text-align: right;
+  margin-bottom: 20px;
+  margin-right: 20px;
+  color: rgb(29, 29, 29);
+  /* font-size: smaller; */
+  font-family: 'Permanent Marker', cursive;
 }
