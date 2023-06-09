@@ -1,12 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
 * {
   margin: 0;
   padding: 0;
 }
+
 body {
   height: 100%;
   width: 100%;
 }
+
 .homepageImg {
-  background-image: url(https://i.pinimg.com/236x/e6/73/27/e67327c8a81feb77323c983bbb3589fe.jpg);
-  height: 65vh;
+  position: relative;
+  background-image: url(rachel-park-hrlvr2ZlUNk.jpg);
+  height: 75vh;
+  color: rgb(255, 255, 255);
+  background-size: cover;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homepageImg:before {
+	content: '';
+	display: block;
+  height: 75vh;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color:rgba(0, 0, 0, 0.5);
+}
+
+.center {
+  filter: brightness(150%);
+  font-size: 40px;
+  font-family: 'Permanent Marker', cursive;
+}
+.center2 {
+  font-size: 30px;
+  display: block;
+  text-align: center;
+}
+.noneDec {
+  text-decoration: none;
+}
+.heightWenig {
+  height: 230px;
+  border-radius: 17px;
+  transition: 0.5s;
+}
+.wrapDetail {
+  display: inline-block;
+}
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 110px;
+  margin-top: 70px;
+}
+
+.heightWenig:hover {
+  background-color: black;
+  transform: scale(1.1);
+  box-shadow: 0 0 20px black;
 }
