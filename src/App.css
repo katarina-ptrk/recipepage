@@ -83,3 +83,19 @@ body {
   /* font-size: smaller; */
   font-family: 'Permanent Marker', cursive;
 }
+
+.flexPan {
+  display: flex;
+}
+
+.imgPan {
+  height: 100vh;
+}
+
+.black {
+  color: black !important;
+}
+
+
+
+
