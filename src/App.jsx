@@ -8,7 +8,6 @@ import Granola from './pages/Granola';
 import Smoothie from './pages/Smoothie';
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
